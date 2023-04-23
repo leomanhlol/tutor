@@ -47,7 +47,10 @@ export default class Example extends React.Component {
                 <NavLink href="/login">Đăng nhập</NavLink>
               </NavItem>
               <NavItem className="pe-5">
-                <NavLink href="/register">Đăng ký</NavLink>
+                <NavLink href="/register_user">Đăng ký hoc vien</NavLink>
+              </NavItem>
+              <NavItem className="pe-5">
+                <NavLink href="/register_tutor">Đăng ký gia su</NavLink>
               </NavItem>
               <NavItem className="pe-5">
                 <NavLink href="">Đăng xuất</NavLink>
@@ -56,7 +59,7 @@ export default class Example extends React.Component {
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu >
                   <DropdownItem>
                     Option 1
                   </DropdownItem>
